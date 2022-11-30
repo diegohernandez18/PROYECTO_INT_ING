@@ -4,7 +4,7 @@ int main()
 	int tamanio, ancho, largo, opcion;
 	printf("Este programa puede dibujar algunas figuras del tamanio que decidas. \n");
 	printf("Que figura deseas hacer?\n");
-	printf("Escribe 1 para hacer un rectangulo: ");
+	printf("Escribe 1 para hacer un rectangulo, 2 para hacer un trangulo: ");
 	scanf_s("%i", &opcion);
 	printf("\n");
 	if (opcion == 1)
