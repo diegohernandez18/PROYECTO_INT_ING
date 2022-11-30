@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-	int tamanio,r,l;
-	printf("Este programa puede dibujar rectangulos del tamanio que decidas");
+	int tamanio,ancho,largo;
+	printf("Este programa puede dibujar rectangulos del tamanio que decidas. \n");
 	printf("Introduce el tamanio de la figura: ");
 	scanf_s("%i", &tamanio);
 	printf("\n");
 
-	for (r = 1; r <= tamanio; r++)
+	for (ancho = 1; ancho <= tamanio; ancho++)
 	{
-		for (l = 1; l <= tamanio; l++)
+		for (largo = 1; largo <= tamanio; largo++)
 		{
 			printf("*");
 		}
