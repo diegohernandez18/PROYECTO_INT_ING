@@ -3,7 +3,8 @@ int main()
 {
 	int tamanio, ancho, largo, opcion;
 	printf("Este programa puede dibujar rectangulos del tamanio que decidas. \n");
-	printf("quefigura deseas hacer rectangulo(1): ");
+	printf("Que figura deseas hacer?\n");
+	printf("Escribe 1 para hacer un rectangulo");
 	scanf_s("%i", &opcion);
 	printf("\n");
 	if (opcion == 1)
