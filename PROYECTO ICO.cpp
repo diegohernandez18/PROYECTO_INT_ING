@@ -2,7 +2,9 @@
 int main()
 {
 	int tamanio, ancho, largo;
-	printf("Este programa puede dibujar rectangulos del tamanio que decidas. \n");
+	printf("Este programa puede dibujar rectangulos y traingulos del tamanio que decidas. \n");
+	printf("Que figura deseas hacer?\n");
+	printf("Escribe 1 para hacer un rectangulo, escribe 2 para un traingulo \n");
 	printf("Introduce el tamanio de la figura: ");
 	scanf_s("%i", &tamanio);
 	printf("\n");
