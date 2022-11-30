@@ -28,5 +28,12 @@ int main()
 		printf("Este programa puede dibujar triangulos del tamanio que decidas. \n");
 		printf("Introduce el tamanio de la figura: ");
 		scanf_s("%i", &tamanio);
+		for (ancho = 1; ancho <= tamanio; ancho++)
+		{
+			for (int i = 1; i <= asterisco; i++)
+			{
+				printf("*");
+			}
+		}
 	}
 }
