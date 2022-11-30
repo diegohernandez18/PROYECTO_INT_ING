@@ -34,6 +34,8 @@ int main()
 			{
 				printf("*");
 			}
+			printf("\n");
+			asterisco = asterisco + 1;
 		}
 	}
 }
