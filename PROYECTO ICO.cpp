@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	int tamanio, ancho, largo, opcion, ast=1;
+	int tamanio, ancho, largo, opcion, asterisco = 1;
 	printf("Este programa puede dibujar algunas figuras del tamanio que decidas. \n");
 	printf("Que figura deseas hacer?\n");
 	printf("Escribe 1 para hacer un rectangulo, 2 para hacer un trangulo: ");
@@ -28,6 +28,5 @@ int main()
 		printf("Este programa puede dibujar triangulos del tamanio que decidas. \n");
 		printf("Introduce el tamanio de la figura: ");
 		scanf_s("%i", &tamanio);
-		
 	}
 }
